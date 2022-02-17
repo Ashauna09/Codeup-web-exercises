@@ -133,3 +133,32 @@ Create a property on the person object to store their contact info
 //         'nope@no-no-no.no'));
 //
 // console.log(person2.contactInfo.emailAddress);
+
+/*We are going to create a method which
+- allows a user to input their desired amount of names names
+*use prompt, alert, confirm inside of a while loop
+*assign each name to an array
+-once the user decides they are done giving names, end the loop and
+return the string array
+-then assigning that returned array by invoking your new function on the
+Person.names property value!
+* Things to consider:
+    -Should this be a standalone function or should it be a method on the Person
+* object?*/
+
+function getNames(){
+   let namesArr = [];
+    let hasMoreNames = true;
+    while (hasMoreNames){
+        // get the names
+namesArr.push(prompt("Please enter "))
+// prompt for names
+
+   hasMoreNames = confirm("Would you like to enter another name?")
+   }
+   return namesArr;
+ };
+this.names();
+this.occupation = occupation;
+ this.dob = dob;
+ this.
