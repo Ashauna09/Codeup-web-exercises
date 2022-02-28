@@ -162,3 +162,19 @@ this.names();
 this.occupation = occupation;
  this.dob = dob;
  this.
+
+     /* Warm up 2-28-2022 */
+
+function removeAll(anArr, valueToRemove) {
+    let filteredArr = []
+    anarr.forEach(function (ele) {
+        if (alueTorEMOVE !==ele) {
+            filteredArr.push(ele);
+        }
+    };
+    return filteredArr;
+}
+let cars = ["Honda", "Lexus", "Toyota", "Jeep", "Dodge", "Ford"];
+console.log(removeAll(cars, valueToRemove: "Jeep"));
+
+
